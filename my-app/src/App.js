@@ -1,10 +1,10 @@
 import React from "react";
-import Home from "./views/Home";
+import Router from "./Routes/Router";
 class App extends React.Component {
   render() {
     return (
       <div>
-        <Home />
+        <Router />
       </div>
     );
   }
